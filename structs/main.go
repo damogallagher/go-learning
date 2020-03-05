@@ -24,8 +24,10 @@ func main() {
 	}
 
 	// &: gives the memory address of the value this variable is pointing at
-	alexPointer := &alex
-	alexPointer.updateName("alexander")
+	//alexPointer := &alex
+	//alexPointer.updateName("alexander")
+	//pointer shortcut
+	alex.updateName("alexander")
 	alex.print()
 }
 
